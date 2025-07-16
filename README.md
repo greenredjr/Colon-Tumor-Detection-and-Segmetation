@@ -1,4 +1,4 @@
-🧬 Colon Tumor Detection and Segmentation using YOLOv8 + U-Net with Attention
+📌 Colon Tumor Detection and Segmentation using YOLOv8 + U-Net with Attention
 
 📌 Overview
 
@@ -14,7 +14,7 @@ A custom weighted BCE loss function focusing on tumor regions
 
 ---
 
-🧠 Model Pipeline
+📌 Model Pipeline
 
 Colonoscopy Image
         ↓
@@ -27,7 +27,7 @@ Tumor Segmentation Mask
 
 ---
 
-🚀 Features
+📌 Features
 
 ✅ Real-time tumor localization using YOLOv8
 
@@ -43,7 +43,7 @@ Tumor Segmentation Mask
 
 ---
 
-🗂️ Dataset Structure
+📌 Dataset Structure
 
 Balanced_Dataset/
 ├── WLI/
@@ -60,7 +60,7 @@ All images and binary masks are resized to 256×256.
 
 ---
 
-⚙️ Requirements
+📌 Requirements
 
 Python ≥ 3.8
 
@@ -78,7 +78,7 @@ Ultralytics (for YOLOv8)
 Install dependencies:
 
 
-🛠️ How to Run
+📌 How to Run
 
 1. Train YOLOv8 Detector (optional if pre-trained weights are used)
 
@@ -94,7 +94,7 @@ Install dependencies:
 
 ---
 
-📊 Sample Results
+📌 Sample Results
 
 Metric	Value
 
@@ -108,7 +108,7 @@ Accuracy	0.9689
 
 ---
 
-🧪 Innovations Introduced
+📌 Innovations Introduced
 
 YOLO-guided attention masks used as input to U-Net
 
